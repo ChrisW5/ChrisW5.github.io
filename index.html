@@ -1,1148 +1,429 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Document Title -->
-    <title>BizBlog</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-
-    <!--==== Google Fonts ====-->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500%7CSpectral:400,400i,500,600,700" rel="stylesheet">
-
-    <!-- CSS Files -->
-
-    <!--==== Bootstrap css file ====-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!--==== Font-Awesome css file ====-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <!--==== Animate CSS ====-->
-    <link rel="stylesheet" href="assets/plugins/animate/animate.min.css">
-
-    <!--==== Owl Carousel ====-->
-    <link rel="stylesheet" href="assets/plugins/owl-carousel/owl.carousel.min.css">
-
-    <!--==== Magnific Popup ====-->
-    <link rel="stylesheet" href="assets/plugins/magnific-popup/magnific-popup.css">
-
-    <!--==== Style css file ====-->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!--==== Responsive css file ====-->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <!--==== Custom css file ====-->
-    <link rel="stylesheet" href="assets/css/custom.css">
+<meta charset="utf-8">
+<title>首页-杨青青个人博客模板主题《今夕何夕》</title>
+<meta name="keywords" content="blog" />
+<meta name="description" content="blog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/m.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js" ></script>
+<script src="js/comm.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preload-img">
-            <div class="spinnerBounce">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    </div>
-    <!-- End of Preloader -->
-
-    <!-- Nav Search Box -->
-    <div class="nav-search-box">
-        <form>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="eg. feel the love and …">
-                <span class="b-line"></span>
-                <span class="b-line-under"></span>
-                <div class="input-group-append">
-                    <button type="button" class="btn">
-                        <img src="assets/images/search-icon.svg" alt="" class="img-fluid svg">
-                    </button>
-                </div>
-            </div>
-        </form>
-    </div>
-    <!-- End of Nav Search Box -->
-    
-    <!-- Header -->
-    <header class="header">
-        <div class="header-fixed">
-            <div class="container-fluid pl-120 pr-120 position-relative">
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="#"><img src="assets/images/logo.png" alt="" class="img-fluid"></a> 
-                        </div>
-                        <!-- End of Logo -->
-                    </div>
-
-                    <div class="col-lg-9 col-md-8 col-6 d-flex justify-content-end position-static">
-                        <!-- Nav Menu -->
-                        <div class="nav-menu-cover">
-                            <ul class="nav nav-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="menu-item-has-children"><a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item-has-children"><a href="#">Blog List</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-list-sidebar.html">List Sidebar</a></li>
-                                                <li><a href="blog-list-full-width.html">List Full Width</a></li>
-                                                <li><a href="blog-grid-sidebar.html">Grid Sidebar</a></li>
-                                                <li><a href="blog-grid-2-col.html">Grid v2</a></li>
-                                                <li><a href="blog-grid-3-col.html">Grid v3</a></li>
-                                                <li><a href="blog-overlay.html">Blog Overlay</a></li>
-                                                <li><a href="blog-card-v1.html">Blog Card v1</a></li>
-                                                <li><a href="blog-card-v2.html">Blog Card v2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#">Blog Details</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-details.html">Default Style</a></li>
-                                                <li><a href="blog-details-full-width.html">Full Width</a></li>
-                                                <li><a href="blog-details-video.html">Video Post</a></li>
-                                                <li><a href="blog-details-slide.html">Slide Post</a></li>
-                                                <li><a href="blog-details-audio.html">Audio Post</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#">Pages </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="categories.html">Categories</a></li>
-                                        <li><a href="search-result.html">Search Results</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                        <!-- End of Nav Menu -->
-
-                        <!-- Mobile Menu -->
-                        <div class="mobile-menu-cover">
-                            <ul class="nav mobile-nav-menu">
-                                <li class="search-toggle-open">
-                                    <img src="assets/images/search-icon.svg" alt="" class="img-fluid svg">
-                                </li>
-                                <li class="search-toggle-close hide">
-                                    <img src="assets/images/close.svg" alt="" class="img-fluid">
-                                </li>
-                                <li class="nav-menu-toggle">
-                                    <img src="assets/images/menu-toggler.svg" alt="" class="img-fluid svg">
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- End of Mobile Menu -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- End of Header -->
-    <!-- Banner -->
-    <div class="banner-slider-cover d-flex align-items-center">
-        <div class="container">
-        <div class="banner-slider owl-carousel">
-            <!-- Banner Slide -->
-            <div class="banner-slide">
-                <div class="row align-items-center">
-                    <div class="col-md-6 order-2 order-md-1">
-                        <!-- Banner Text -->
-                        <div class="banner-slide-text">
-                            <p class="category"><a href="#">Fashion</a></p>
-                            <h1>Understanding The Background Of Fashion</h1>
-                            <p class="desc">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo, quis tempor ligula. Quisque quis pharetra felis. Ut quis consequat orci, at consequat felis. Suspendisse auctor laoreet placerat. Nam et risus non lacus dignissim lacinia sit amet nec eros. </p>
-                            <a href="blog-details.html" class="btn btn-primary">View More</a>
-                        </div>
-                        <!-- End of Banner Text -->
-                    </div>
-                    <div class="col-md-6 order-1 order-md-2">
-                        <!-- Banner Image -->
-                        <div class="banner-slide-image">
-                            <img src="assets/images/banner/1.jpg" alt="" class="img-fluid">
-                        </div>
-                        <!-- End of Banner Image -->
-                    </div>
-                </div>
-            </div>
-            <!-- End of Banner Slide -->
-
-            <!-- Banner Slide -->
-            <div class="banner-slide">
-                <div class="row align-items-center">
-                    <div class="col-md-6 order-2 order-md-1">
-                        <!-- Banner Text -->
-                        <div class="banner-slide-text">
-                            <p class="category"><a href="#">Fashion</a></p>
-                            <h1>Feel The Love, And Things on My Mind</h1>
-                            <p class="desc">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo, quis tempor ligula. Quisque quis pharetra felis. Ut quis consequat orci, at consequat felis. Suspendisse auctor laoreet placerat. Nam et risus non lacus dignissim lacinia sit amet nec eros. </p>
-                            <a href="blog-details.html" class="btn btn-primary">View More</a>
-                        </div>
-                        <!-- End of Banner Text -->
-                    </div>
-                    <div class="col-md-6 order-1 order-md-2">
-                        <!-- Banner Image -->
-                        <div class="banner-slide-image">
-                            <img src="assets/images/banner/2.jpg" alt="" class="img-fluid">
-                        </div>
-                        <!-- End of Banner Image -->
-                    </div>
-                </div>
-            </div>
-            <!-- End of Banner Slide -->
-
-            <!-- Banner Slide -->
-            <div class="banner-slide">
-                <div class="row align-items-center">
-                    <div class="col-md-6 order-2 order-md-1">
-                        <!-- Banner Text -->
-                        <div class="banner-slide-text">
-                            <p class="category"><a href="#">Fashion</a></p>
-                            <h1>Blaak Attack Earns Boels First 2019 Victory </h1>
-                            <p class="desc">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo, quis tempor ligula. Quisque quis pharetra felis. Ut quis consequat orci, at consequat felis. Suspendisse auctor laoreet placerat. Nam et risus non lacus dignissim lacinia sit amet nec eros. </p>
-                            <a href="blog-details.html" class="btn btn-primary">View More</a>
-                        </div>
-                        <!-- End of Banner Text -->
-                    </div>
-                    <div class="col-md-6 order-1 order-md-2">
-                        <!-- Banner Image -->
-                        <div class="banner-slide-image">
-                            <img src="assets/images/banner/3.jpg" alt="" class="img-fluid">
-                        </div>
-                        <!-- End of Banner Image -->
-                    </div>
-                </div>
-            </div>
-            <!-- End of Banner Slide -->
-        </div>
-
-        <!-- Banner Dots Slider -->
-        <div class="banner-slider-dots owl-carousel"></div>
-        </div>
-        <!-- End of Banner Dots Slider -->
-    </div>
-    <!-- End of Banner -->
-
-    <!-- Trending Posts-->
-    <section class="pt-120 pb-10">
-        <div class="container">
-            <!-- Section Title -->
-            <div class="section-title text-center">
-                <h2>Trending Post</h2>
-            </div>
-            <!-- Section Title -->
-
-            <div class="row">
-                <div class="col-lg-6 order-lg-2">
-                    <!-- Post -->
-                    <div class="post-default post-has-bg-img">
-                        <div class="post-thumb">
-                            <a href="blog-details.html">
-                                <div data-bg-img="assets/images/blog/4.jpg"></div>
-                            </a>
-                        </div>
-                        <div class="post-data">
-                            <!-- Category -->
-                            <div class="cats"><a href="category-result.html">Fashion</a></div>
-                            <!-- Title -->
-                            <div class="title">
-                                <h2><a href="blog-details.html">Understanding The Background <br> Of Fashion</a></h2>
-                            </div>
-                            <!-- Post Meta -->
-                            <ul class="nav meta align-items-center">
-                                <li class="meta-author">
-                                    <img src="assets/images/blog/author.jpg" alt="" class="img-fluid">
-                                    <a href="#">Alex Garry</a>
-                                </li>
-                                <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                <li class="meta-comments"><a href="#"><i class="fa fa-comment"></i> 2</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End of Post -->
-                </div>
-                <div class="col-lg-6 order-lg-1">
-                    <!-- Post -->
-                    <div class="post-default post-has-no-thumb">
-                        <div class="post-data">
-                            <!-- Category -->
-                            <div class="cats"><a href="category-result.html">Fashion</a></div>
-                            <!-- Title -->
-                            <div class="title">
-                                <h2><a href="blog-details.html">Understanding The Background Of Fashion</a></h2>
-                            </div>
-                            <!-- Post Meta -->
-                            <ul class="nav meta align-items-center">
-                                <li class="meta-author">
-                                    <img src="assets/images/blog/author.jpg" alt="" class="img-fluid">
-                                    <a href="#">Alex Garry</a>
-                                </li>
-                                <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                <li class="meta-comments"><a href="#"><i class="fa fa-comment"></i> 2</a></li>
-                            </ul>
-                            <!-- Post Desc -->
-                            <div class="desc">
-                                <p>
-                                    Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur elementum nunc...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Post -->
-
-                    <!-- Post -->
-                    <div class="post-default post-has-no-thumb">
-                        <div class="post-data">
-                            <!-- Category -->
-                            <div class="cats"><a href="category-result.html">Travel</a></div>
-                            <!-- Title -->
-                            <div class="title">
-                                <h2><a href="blog-details.html">30 Things to Do Before You Turn 30 Travel Bucket List</a></h2>
-                            </div>
-                            <!-- Post Meta -->
-                            <ul class="nav meta align-items-center">
-                                <li class="meta-author">
-                                    <img src="assets/images/blog/author.jpg" alt="" class="img-fluid">
-                                    <a href="#">Alex Garry</a>
-                                </li>
-                                <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                <li class="meta-comments"><a href="#"><i class="fa fa-comment"></i> 2</a></li>
-                            </ul>
-                            <!-- Post Desc -->
-                            <div class="desc">
-                                <p>
-                                    Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur elementum nunc...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Post -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Trending Posts-->
-
-    <!-- post with sidebar -->
-    <div class="container pt-40 pb-90">
-        <div class="row">
-            <div class="col-lg-8">
-                <!-- Popular Post -->
-                <section class="popular-post pb-10">
-                    <!-- Section title -->
-                    <div class="section-title">
-                        <h2>Popular Posts</h2>
-                    </div>
-                    <!-- End of Section title -->
-
-                    <div class="post-blog-list">
-                        <!-- Post -->
-                        <div class="post-default post-has-right-thumb">
-                            <div class="d-flex flex-wrap">
-                                <div class="post-thumb align-self-stretch order-md-2">
-                                    <a href="blog-details.html">
-                                    <div data-bg-img="assets/images/blog/1.jpg"></div>
-                                    </a>
-                                </div>
-                                <div class="post-data order-md-1">
-                                    <!-- Category -->
-                                    <div class="cats"><a href="category-result.html">Love</a></div>
-                                    <!-- Title -->
-                                    <div class="title">
-                                        <h2><a href="blog-details.html">A Funny Thing That Happens In Relationships</a></h2>
-                                    </div>
-                                    <!-- Post Meta -->
-                                    <ul class="nav meta align-items-center">
-                                        <li class="meta-author">
-                                            <img src="assets/images/blog/author.jpg" alt="" class="img-fluid">
-                                            <a href="#">Alex Garry</a>
-                                        </li>
-                                        <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                        <li class="meta-comments"><a href="#"><i class="fa fa-comment"></i> 2</a></li>
-                                    </ul>
-                                    <!-- Post Desc -->
-                                    <div class="desc">
-                                        <p>
-                                            Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur elementum nunc...
-                                        </p>
-                                    </div>
-                                    <!-- Read More Button -->
-                                    <a href="blog-details.html" class="btn btn-primary">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Post -->
-                        
-                        <!-- Post -->
-                        <div class="post-default post-has-right-thumb">
-                            <div class="d-flex flex-wrap">
-                                <div class="post-thumb align-self-stretch order-md-2">
-                                    <a href="blog-details.html">
-                                    <div data-bg-img="assets/images/blog/2.jpg"></div>
-                                    </a>
-                                </div>
-                                <div class="post-data order-md-1">
-                                    <!-- Category -->
-                                    <div class="cats"><a href="category-result.html">Fashion</a></div>
-                                    <!-- Title -->
-                                    <div class="title">
-                                        <h2><a href="blog-details.html">The One Thing I Do When Fashion Come Over</a></h2>
-                                    </div>
-                                    <!-- Post Meta -->
-                                    <ul class="nav meta align-items-center">
-                                        <li class="meta-author">
-                                            <img src="assets/images/blog/author.jpg" alt="" class="img-fluid">
-                                            <a href="#">Alex Garry</a>
-                                        </li>
-                                        <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                        <li class="meta-comments"><a href="#"><i class="fa fa-comment"></i> 2</a></li>
-                                    </ul>
-                                    <!-- Post Desc -->
-                                    <div class="desc">
-                                        <p>
-                                            Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur elementum nunc...
-                                        </p>
-                                    </div>
-                                    <!-- Read More Button -->
-                                    <a href="blog-details.html" class="btn btn-primary">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Post --> 
-
-                        <!-- Post -->
-                        <div class="post-default post-has-right-thumb">
-                            <div class="d-flex flex-wrap">
-                                <div class="post-thumb align-self-stretch order-md-2">
-                                    <a href="blog-details.html">
-                                    <div data-bg-img="assets/images/blog/3.jpg"></div>
-                                    </a>
-                                </div>
-                                <div class="post-data order-md-1">
-                                    <!-- Category -->
-                                    <div class="cats"><a href="category-result.html">Travel</a></div>
-                                    <!-- Title -->
-                                    <div class="title">
-                                        <h2><a href="blog-details.html">Summer Adventure Essentials From Backcountry</a></h2>
-                                    </div>
-                                    <!-- Post Meta -->
-                                    <ul class="nav meta align-items-center">
-                                        <li class="meta-author">
-                                            <img src="assets/images/blog/author.jpg" alt="" class="img-fluid">
-                                            <a href="#">Alex Garry</a>
-                                        </li>
-                                        <li class="meta-date"><a href="#">2 Feb 2019</a></li>
-                                        <li class="meta-comments"><a href="#"><i class="fa fa-comment"></i> 2</a></li>
-                                    </ul>
-                                    <!-- Post Desc -->
-                                    <div class="desc">
-                                        <p>
-                                            Integer at faucibus urna. Nullam condimentum leo id elit sagittis auctor. Curabitur elementum nunc...
-                                        </p>
-                                    </div>
-                                    <!-- Read More Button -->
-                                    <a href="blog-details.html" class="btn btn-primary">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Post --> 
-                    </div>
-                </section>
-                <!-- End of Popular Post  -->
-
-                <!-- Most Viewed Post -->
-                <section class="pt-40 pb-10 most-viewed">
-                    <!-- Section title -->
-                    <div class="section-title">
-                        <h2>Most Viewed</h2>
-                    </div>
-                    <!-- End of Section title -->
-                    <div class="post-blog-list">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <!-- Post -->
-                                <div class="post-default post-has-front-title">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html"> <img src="assets/images/blog/4.jpg" alt="" class="img-fluid"> </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Adventure</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">Top Things To Look For When There choosing A Safari Lodge</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-
-                            <div class="col-sm-6">
-                                <!-- Post -->
-                                <div class="post-default">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html"> <img src="assets/images/blog/small/1.jpg" alt="" class="img-fluid"> </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Love</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">Blaak Attack Earns Boels First 2019 Victory </a></h2>
-                                        </div>
-                                        <!-- Post Desc -->
-                                        <div class="desc">
-                                            <p>
-                                                Duis mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem, pharetra et magna....
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-
-                            <div class="col-sm-6">
-                                <!-- Post -->
-                                <div class="post-default">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html"><img src="assets/images/blog/small/2.jpg" alt="" class="img-fluid"></a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Lifestyle</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">Great Britain's Winter Olympics athletes Rated & Slated </a></h2>
-                                        </div>
-                                        <!-- Post Desc -->
-                                        <div class="desc">
-                                            <p>
-                                                Duis mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem, pharetra et magna....
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-
-                            <div class="col-sm-6">
-                                <!-- Post -->
-                                <div class="post-default">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html"> <img src="assets/images/blog/small/3.jpg" alt="" class="img-fluid"> </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Technology</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">12-inch MacBook Refurb $830, Apple Watch Series</a></h2>
-                                        </div>
-                                        <!-- Post Desc -->
-                                        <div class="desc">
-                                            <p>
-                                                Duis mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem, pharetra et magna....
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-
-                            <div class="col-sm-6">
-                                <!-- Post -->
-                                <div class="post-default">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html"> <img src="assets/images/blog/small/4.jpg" alt="" class="img-fluid"> </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Food</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">This Apple Crisp Makes The Entire House Smell Dreamy</a></h2>
-                                        </div>
-                                        <!-- Post Desc -->
-                                        <div class="desc">
-                                            <p>
-                                                Duis mauris augue, efficitur eu arcu sit amet, posuere dignissim neque. Aenean enim sem, pharetra et magna....
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End of Most Viewed Post -->
-
-                <!-- 728 ad -->
-                <div class="pt-40 pb-40 biz-ad">
-                    <a href="#"><img src="assets/images/ad-728.png" alt="" class="img-fluid"></a>
-                </div>
-                <!-- End of 728 ad -->
-
-                <!-- Video Post -->
-                <section class="pt-40 pb-10 video-post">
-                    <!-- Section title -->
-                    <div class="section-title">
-                        <h2>Video Post</h2>
-                    </div>
-                    <!-- End of Section title -->
-                    <div class="post-blog-list">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- Post -->
-                                <div class="post-default post-has-video">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html">
-                                            <div data-bg-img="assets/images/blog/6.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Food</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">Five Important Facts Should Know About Recipe</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-
-                            <div class="col-md-6">
-                                <!-- Post -->
-                                <div class="post-default post-has-video">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html">
-                                            <div data-bg-img="assets/images/blog/8.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Technology</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">Apple Admits To Macbook and Macbook Pro </a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-
-                            <div class="col-md-6">
-                                <!-- Post -->
-                                <div class="post-default post-has-video">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html">
-                                            <div data-bg-img="assets/images/blog/10.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Food</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">20-Minute Thai Coconut Chicken Soup</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-
-                            <div class="col-md-6">
-                                <!-- Post -->
-                                <div class="post-default post-has-video">
-                                    <div class="post-thumb">
-                                        <a href="blog-details.html">
-                                            <div data-bg-img="assets/images/blog/9.jpg"></div>
-                                        </a>
-                                    </div>
-                                    <div class="post-data">
-                                        <!-- Category -->
-                                        <div class="cats"><a href="category-result.html">Technology</a></div>
-                                        <!-- Title -->
-                                        <div class="title">
-                                            <h2><a href="blog-details.html">Feel The Love, And Things On My Mind</a></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of Post -->
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End of Video Post -->
-            </div>
-            <div class="col-lg-4">
-                <div class="pt-88">
-                    <div class="my-sidebar">
-    <!-- Author Widget -->
-    <div class="widget widget-about">
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <!-- Author Image -->
-            <div class="author-image">
-                <img src="assets/images/blog/author.jpg" alt="" class="img-fluid">
-            </div>
-            <!-- Author Name -->
-            <div class="author-name text-center">
-                <a href="#"> Alex Garry </a>
-            </div>
-            <!-- Author Social Links -->
-            <div class="author-social text-center">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-            </div>
-            <!-- Author Text -->
-            <div class="author-text text-center">
-                In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel.
-            </div>
-        </div>
-        <!-- End of Widget Content -->
-    </div>
-    <!-- End of Author Widget -->
-
-    <!-- Featured Posts -->
-    <div class="widget widget-featured-post">
-        <!-- Widget Title -->
-        <h4 class="widget-title">
-            Featured Post
-        </h4>
-        <!-- End of Widget Title -->
-
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <!-- Single Post -->
-            <div class="featured-post">
-                <!-- Post Thumbnail -->
-                <a href="blog-details.html">
-                    <img src="assets/images/sidebar/fp-1.jpg" alt="" class="img-fluid">
-                </a>
-                <!-- Post Title -->
-                <div class="featured-post-title">
-                    <h6> <a href="blog-details.html">Guide To Experiencing The Magical Sabino Canyon In Tucson</a> </h6>
-                </div>
-            </div>
-            <!-- End of Single Post -->
-
-            <!-- Single Post -->
-            <div class="featured-post">
-                <!-- Post Thumbnail -->
-                <a href="blog-details.html">
-                    <img src="assets/images/sidebar/fp-2.jpg" alt="" class="img-fluid">
-                </a>
-                <!-- Post Title -->
-                <div class="featured-post-title">
-                    <h6><a href="blog-details.html">Inspired To Move: Celebrating Dance and Black History Month</a></h6>
-                </div>
-            </div>
-            <!-- End of Single Post -->
-        </div>
-        <!-- End of Widget Content -->
-    </div>
-    <!-- End of Featured Posts -->
-
-    <!-- Select Category -->
-    <div class="widget widget-select-category">
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <!-- Select -->
-            <select>
-                <option selected>Choose category</option>
-                <option value="1">Love</option>
-                <option value="2">Fashion</option>
-                <option value="3">Travel</option>
-                <option value="4">Adventure</option>
-                <option value="5">Sports</option>
-                <option value="6">Food</option>
-                <option value="7">Lifestyle</option>
-                <option value="8">Technology</option>
-            </select>
-        </div>
-        <!-- End of Widget Content -->
-    </div>
-    <!-- End of Select Category -->
-
-    <!-- Ad Widget -->
-    <div class="widget widget-ad">
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <a href="#">
-                <img src="assets/images/sidebar/ad.jpg" alt="" class="img-fluid">
-            </a>
-        </div>
-        <!-- End of Widget Content -->
-    </div>
-    <!-- End of Ad Widget -->
-
-    <!-- Instagram Widget -->
-    <div class="widget widget-instagram">
-        <!-- Widget Title -->
-        <h4 class="widget-title">
-            Instagram Post
-        </h4>
-        <!-- End of Widget Title -->
-
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <ul class="insta-gallery">
-                <li>
-                    <!-- Instagram Post Image -->
-                    <a href="#"><img src="assets/images/sidebar/instagram/1.jpg" alt="" class="img-fluid"></a>
-                </li>
-                <li>
-                    <!-- Instagram Post Image -->
-                    <a href="#"><img src="assets/images/sidebar/instagram/2.jpg" alt="" class="img-fluid"></a>
-                </li>
-                <li>
-                    <!-- Instagram Post Image -->
-                    <a href="#"><img src="assets/images/sidebar/instagram/3.jpg" alt="" class="img-fluid"></a>
-                </li>
-                <li>
-                    <!-- Instagram Post Image -->
-                    <a href="#"><img src="assets/images/sidebar/instagram/4.jpg" alt="" class="img-fluid"></a>
-                </li>
-                <li>
-                    <!-- Instagram Post Image -->
-                    <a href="#"><img src="assets/images/sidebar/instagram/5.jpg" alt="" class="img-fluid"></a>
-                </li>
-                <li>
-                    <!-- Instagram Post Image -->
-                    <a href="#"><img src="assets/images/sidebar/instagram/6.jpg" alt="" class="img-fluid"></a>
-                </li>
+<!--top begin-->
+<header id="header">
+  <div class="navbox">
+    <h2 id="mnavh"><span class="navicon"></span></h2>
+    <div class="logo"><a href="#">杨青青个人博客</a></div>
+    <nav>
+      <ul id="starlist">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="list.html">个人博客日记</a></li>
+        <li class="menu"><a href="list2.html">博客网站制作</a>
+          <ul class="sub">
+            <li><a href="/6">推荐工具</a></li>
+            <li><a href="/7">JS经典实例</a></li>
+            <li><a href="/8">网站建设</a></li>
+            <li><a href="/7">CSS3|Html5</a></li>
+            <li><a href="/8">心得笔记</a></li>
+          </ul>
+          <span></span></li>
+        <li><a href="list3.html">网页设计心得</a></li>
+        <li><a href="daohang.html">优秀个人博客</a></li>
+        <li><a href="about.html">关于我</a></li>
+      </ul>
+    </nav>
+    <div class="searchico"></div>
+  </div>
+</header>
+<div class="searchbox">
+  <div class="search">
+    <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+      <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字词" style="color: rgb(153, 153, 153);" onFocus="if(value=='请输入关键字词'){this.style.color='#000';value=''}" onBlur="if(value==''){this.style.color='#999';value='请输入关键字词'}" type="text">
+      <input name="show" value="title" type="hidden">
+      <input name="tempid" value="1" type="hidden">
+      <input name="tbname" value="news" type="hidden">
+      <input name="Submit" class="input_submit" value="搜索" type="submit">
+    </form>
+  </div>
+  <div class="searchclose"></div>
+</div>
+<!--top end-->
+<article> 
+  <!--lbox begin-->
+  <div class="lbox"> 
+    <!--banbox begin-->
+    <div class="banbox">
+      <div class="banner">
+        <div id="banner" class="fader">
+          <li class="slide" ><a href="/" target="_blank"><img src="images/1.jpg"></a></li>
+          <li class="slide" ><a href="/" target="_blank"><img src="images/2.jpg"></a></li>
+          <li class="slide" ><a href="/" target="_blank"><img src="images/3.jpg"></a></li>
+          <li class="slide" ><a href="/" target="_blank"><img src="images/4.jpg"></a></li>
+          <div class="fader_controls">
+            <div class="page prev" data-target="prev"></div>
+            <div class="page next" data-target="next"></div>
+            <ul class="pager_list">
             </ul>
-            <!-- Instagram Follow Button -->
-            <a href="#" class="btn btn-block btn-instagram">
-                <i class="fa fa-instagram"></i> Follow Me
-            </a>
+          </div>
         </div>
-        <!-- End of Widget Content -->
+      </div>
     </div>
-    <!-- End of Instagram Widget -->
-
-    <!-- Newsletter Widget -->
-    <div class="widget widget-newsletter">
-        <!-- Widget Title -->
-        <h4 class="widget-title">
-            Newsletter
-        </h4>
-        <!-- End of Widget Title -->
-
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <!-- Newsletter Text -->
-            <p>Sign up and receive recent blog and article in your inbox every week.</p>
-            <!-- Newsletter Form -->
-            <div class="newsletter">
-                <form action="subscribe/post?u=79f0b132ec25ee223bb41835f&amp;id=f4e0e93d1d" method="post" novalidate>
-                    <input type="text" class="form-control" placeholder="Your Email">
-                    <button class="btn btn-block btn-default">Subscribe</button>
-                </form>
-            </div>
-        </div>
-        <!-- End of Widget Content -->
+    <!--banbox end--> 
+    <!--headline begin-->
+    <div class="headline">
+      <ul>
+        <li><a href="/" title="为什么说10月24日是程序员的节日？"><img src="images/h1.jpg" alt="为什么说10月24日是程序员的节日？"><span>为什么说10月24日是程序员的节日？</span></a></li>
+        <li><a href="/" title="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的"><img src="images/h2.jpg" alt="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</span></a></li>
+      </ul>
     </div>
-    <!-- End of Newsletter Widget -->
-
-    <!-- Recent Post Widget -->
-    <div class="widget widget-recent-post">
-        <!-- Widget Title -->
-        <h4 class="widget-title">
-            Recent Post
-        </h4>
-        <!-- End of Widget Title -->
-
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <!-- Single Post -->
-            <div class="wrp-cover">
-                <!-- Post Thumbnail -->
-                <div class="post-thumb">
-                    <a href="blog-details.html">
-                        <img src="assets/images/sidebar/rp-1.jpg" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!-- Post Title -->
-                <div class="post-title">
-                    <a href="blog-details.html">Apple Admits To Macbook and Macbook Pro</a>  
-                </div>
-            </div>
-
-            <!-- Single Post -->
-            <div class="wrp-cover">
-                <!-- Post Thumbnail -->
-                <div class="post-thumb">
-                    <a href="blog-details.html">
-                        <img src="assets/images/sidebar/rp-2.jpg" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!-- Post Title -->
-                <div class="post-title">
-                    <a href="blog-details.html"> Feel The Love, And Things On My Mind </a>
-                </div>
-            </div>
-
-            <!-- Single Post -->
-            <div class="wrp-cover">
-                <!-- Post Thumbnail -->
-                <div class="post-thumb">
-                    <a href="blog-details.html">
-                        <img src="assets/images/sidebar/rp-3.jpg" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!-- Post Title -->
-                <div class="post-title">
-                    <a href="blog-details.html"> This Apple Crisp Makes The Entire House Smell Dreamy </a>
-                </div>
-            </div>
-
-            <!-- Single Post -->
-            <div class="wrp-cover">
-                <!-- Post Thumbnail -->
-                <div class="post-thumb">
-                    <a href="blog-details.html">
-                        <img src="assets/images/sidebar/rp-4.jpg" alt="" class="img-fluid">
-                    </a>
-                </div>
-                <!-- Post Title -->
-                <div class="post-title">
-                    <a href="blog-details.html">20-Minute Thai Coconut Hot Chicken Soup</a> 
-                </div>
-            </div>
+    <!--headline end-->
+    <div class="clearblank"></div>
+    <div class="tab_box whitebg">
+      <div class="tab_buttons">
+        <ul>
+          <li class="newscurrent">个人博客</li>
+          <li>工作日记</li>
+          <li>心路历程</li>
+          <li>我的博客</li>
+          <li>前端技术</li>
+        </ul>
+      </div>
+      <div class="newstab">
+        <div class="newsitem">
+          <div class="newspic">
+            <ul>
+              <li><a href="/"><img src="images/2.jpg"><span>个人博客，属于我的小世界！</span></a></li>
+              <li><a href="/"><img src="images/4.jpg"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的</span></a></li>
+            </ul>
+          </div>
+          <ul class="newslist">
+            <li><i></i><a href="/">个人博客，属于我的小世界！</a>
+              <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+            </li>
+            <li><i></i><a href="/">安静地做一个爱设计的女子</a>
+              <p>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。</p>
+            </li>
+            <li><i></i><a href="/">我是怎么评价自己的？</a>
+              <p>为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人。</p>
+            </li>
+            <li><i></i><a href="/">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a>
+              <p>不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
+            </li>
+            <li><i></i><a href="/">做个人博客如何用帝国cms美化留言增加头像选择</a>
+              <p>帝国cms的留言板系统很简单，用户名，邮箱，电话，没有头像显示，如果要增加头像选择，而又不增加表或者字段的情况下，选择改用其中一个字段，比如电话这个，修改一下即可</p>
+            </li>
+          </ul>
         </div>
-        <!-- End of Widget Content -->
+        <div class="newsitem">
+          <div class="newspic">
+            <ul>
+              <li><a href="/"><img src="images/3.jpg"><span>个人博客，属于我的小世界！</span></a></li>
+              <li><a href="/"><img src="images/1.jpg"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的</span></a></li>
+            </ul>
+          </div>
+          <ul class="newslist">
+            <li><i></i><a href="/">安静地做一个爱设计的女子</a>
+              <p>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。</p>
+            </li>
+            <li><i></i><a href="/">我是怎么评价自己的？</a>
+              <p>为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人。</p>
+            </li>
+            <li><i></i><a href="/">个人博客，属于我的小世界！</a>
+              <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+            </li>
+            <li><i></i><a href="/">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a>
+              <p>不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
+            </li>
+            <li><i></i><a href="/">做个人博客如何用帝国cms美化留言增加头像选择</a>
+              <p>帝国cms的留言板系统很简单，用户名，邮箱，电话，没有头像显示，如果要增加头像选择，而又不增加表或者字段的情况下，选择改用其中一个字段，比如电话这个，修改一下即可</p>
+            </li>
+          </ul>
+        </div>
+        <div class="newsitem">
+          <div class="newspic">
+            <ul>
+              <li><a href="/"><img src="images/2.jpg"><span>个人博客，属于我的小世界！</span></a></li>
+              <li><a href="/"><img src="images/3.jpg"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的</span></a></li>
+            </ul>
+          </div>
+          <ul class="newslist">
+            <li><i></i><a href="/">我是怎么评价自己的？</a>
+              <p>为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人。</p>
+            </li>
+            <li><i></i><a href="/">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a>
+              <p>不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
+            </li>
+            <li><i></i><a href="/">做个人博客如何用帝国cms美化留言增加头像选择</a>
+              <p>帝国cms的留言板系统很简单，用户名，邮箱，电话，没有头像显示，如果要增加头像选择，而又不增加表或者字段的情况下，选择改用其中一个字段，比如电话这个，修改一下即可</p>
+            </li>
+            <li><i></i><a href="/">个人博客，属于我的小世界！</a>
+              <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+            </li>
+            <li><i></i><a href="/">安静地做一个爱设计的女子</a>
+              <p>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。</p>
+            </li>
+          </ul>
+        </div>
+        <div class="newsitem" >
+          <div class="newspic">
+            <ul>
+              <li><a href="/"><img src="images/3.jpg"><span>个人博客，属于我的小世界！</span></a></li>
+              <li><a href="/"><img src="images/4.jpg"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的</span></a></li>
+            </ul>
+          </div>
+          <ul class="newslist">
+            <li><i></i><a href="/">安静地做一个爱设计的女子</a>
+              <p>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。</p>
+            </li>
+            <li><i></i><a href="/">我是怎么评价自己的？</a>
+              <p>为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人。</p>
+            </li>
+            <li><i></i><a href="/">个人博客，属于我的小世界！</a>
+              <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+            </li>
+            <li><i></i><a href="/">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a>
+              <p>不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
+            </li>
+            <li><i></i><a href="/">做个人博客如何用帝国cms美化留言增加头像选择</a>
+              <p>帝国cms的留言板系统很简单，用户名，邮箱，电话，没有头像显示，如果要增加头像选择，而又不增加表或者字段的情况下，选择改用其中一个字段，比如电话这个，修改一下即可</p>
+            </li>
+          </ul>
+        </div>
+        <div class="newsitem" >
+          <div class="newspic">
+            <ul>
+              <li><a href="/"><img src="images/h2.jpg"><span>个人博客，属于我的小世界！</span></a></li>
+              <li><a href="/"><img src="images/h1.jpg"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的</span></a></li>
+            </ul>
+          </div>
+          <ul class="newslist">
+            <li><i></i><a href="/">我是怎么评价自己的？</a>
+              <p>为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人。</p>
+            </li>
+            <li><i></i><a href="/">个人博客，属于我的小世界！</a>
+              <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+            </li>
+            <li><i></i><a href="/">安静地做一个爱设计的女子</a>
+              <p>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。</p>
+            </li>
+            <li><i></i><a href="/">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a>
+              <p>不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
+            </li>
+            <li><i></i><a href="/">做个人博客如何用帝国cms美化留言增加头像选择</a>
+              <p>帝国cms的留言板系统很简单，用户名，邮箱，电话，没有头像显示，如果要增加头像选择，而又不增加表或者字段的情况下，选择改用其中一个字段，比如电话这个，修改一下即可</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <!-- End of Recent Post Widget -->
-
-    <!-- Most Commented Post Widget -->
-    <div class="widget widget-most-commented-post">
-        <!-- Widget Title -->
-        <h4 class="widget-title">
-            Most Commented Post
-        </h4>
-        <!-- End of Widget Title -->
-
-        <!-- Widget Content -->
-        <div class="widget-content">
-            <!-- Post Carousel -->
-            <div class="wmcp-cover owl-carousel" data-owl-mouse-drag="true" data-owl-dots="true" data-owl-margin="20">
-                <!-- Carousel Item -->
-                <div class="wmcp-item">
-                    <!-- Single Post -->
-                    <div class="wmc-post">
-                        <a href="blog-details.html">
-                            <img src="assets/images/sidebar/mcp-1.jpg" alt="" class="img-fluid">
-                        </a>
-                        <div class="wmc-post-title">
-                            <h6> <a href="blog-details.html"> Understanding The Background Of Fashion </a></h6>
-                        </div>
-                    </div>
-                    <!-- End of Single Post -->
-
-                    <!-- Single Post -->
-                    <div class="wmc-post">
-                        <a href="blog-details.html">
-                            <img src="assets/images/sidebar/mcp-2.jpg" alt="" class="img-fluid">
-                        </a>
-                        <div class="wmc-post-title">
-                            <h6> <a href="blog-details.html">12-inch MacBook Refurb $830, Apple Watch Series</a> </h6>
-                        </div>
-                    </div>
-                    <!-- End of Single Post -->
-                </div>
-                <!-- End of Carousel Item -->
-
-                <!-- Carousel Item -->
-                <div class="wmcp-item">
-                    <!-- Single Post -->
-                    <div class="wmc-post">
-                        <a href="blog-details.html">
-                            <img src="assets/images/sidebar/mcp-1.jpg" alt="" class="img-fluid">
-                        </a>
-                        <div class="wmc-post-title">
-                            <h6> <a href="blog-details.html"> Understanding The Background Of Fashion </a></h6>
-                        </div>
-                    </div>
-                    <!-- End of Single Post -->
-
-                    <!-- Single Post -->
-                    <div class="wmc-post">
-                        <a href="blog-details.html">
-                            <img src="assets/images/sidebar/mcp-2.jpg" alt="" class="img-fluid">
-                        </a>
-                        <div class="wmc-post-title">
-                            <h6> <a href="blog-details.html">12-inch MacBook Refurb $830, Apple Watch Series</a> </h6>
-                        </div>
-                    </div>
-                    <!-- End of Single Post -->
-                </div>
-                <!-- End of Carousel Item -->
-
-                <!-- Carousel Item -->
-                <div class="wmcp-item">
-                    <!-- Single Post -->
-                    <div class="wmc-post">
-                        <a href="blog-details.html">
-                            <img src="assets/images/sidebar/mcp-1.jpg" alt="" class="img-fluid">
-                        </a>
-                        <div class="wmc-post-title">
-                            <h6> <a href="blog-details.html"> Understanding The Background Of Fashion </a></h6>
-                        </div>
-                    </div>
-                    <!-- End of Single Post -->
-
-                    <!-- Single Post -->
-                    <div class="wmc-post">
-                        <a href="blog-details.html">
-                            <img src="assets/images/sidebar/mcp-2.jpg" alt="" class="img-fluid">
-                        </a>
-                        <div class="wmc-post-title">
-                            <h6> <a href="blog-details.html">12-inch MacBook Refurb $830, Apple Watch Series</a> </h6>
-                        </div>
-                    </div>
-                    <!-- End of Single Post -->
-                </div>
-                <!-- End of Carousel Item -->
-            </div>
-            <!-- End of Post Carousel -->
-
-        </div>
-        <!-- End of Widget Content -->
+    <!--tab_box end-->
+    <div class="zhuanti whitebg">
+      <h2 class="htitle"><span class="hnav"><a href="/">原创模板</a><a href="/">古典</a><a href="/">清新</a><a href="/">低调</a></span>精彩专题</h2>
+      <ul>
+        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
+        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
+        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/3.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
+        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/4.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
+        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/h2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
+        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/h1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
+      </ul>
     </div>
-    <!-- End of Most Commented Post Widget -->
-
-    <!-- Tags Cloud Widget -->
-    <div class="widget widget-tag-cloud">
-        <!-- Widget Title -->
-        <h4 class="widget-title">
-            Tags
-        </h4>
-        <!-- End of Widget Title -->
-
-        <!-- Widget Content -->
-        <div class="widget-content tagcloud">
-            <a href="#">Fashion</a>
-            <a href="#">Art</a>
-            <a href="#">Lifestyle</a>
-            <a href="#">Love</a>
-            <a href="#">Travel</a>
-            <a href="#">Health</a>
-            <a href="#">Education</a>
-            <a href="#">Movie</a>
-            <a href="#">Games</a>
-            <a href="#">Sports</a>
-        </div>
-        <!-- End of Widget Content -->
+    <div class="ad whitebg"> <img src="images/longad.jpg"> </div>
+    <div class="whitebg bloglist">
+      <h2 class="htitle">最新博文</h2>
+      <ul>
+        <!--多图模式 置顶设计-->
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank"><b>【顶】</b>别让这些闹心的套路，毁了你的网页设计!</a></h3>
+          <span class="bplist"><a href="/"> <img src="images/b02.jpg" alt=""></a> <a href="/"><img src="images/b03.jpg" alt=""></a> <a href="/"><img src="images/b04.jpg" alt=""> </a><a href="/"><img src="images/b05.jpg" alt=""> </a></span>
+          <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">原创模板</a>】</span></p>
+        </li>
+        <!--单图-->
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">【个人博客网站制作】自己不会个人博客网站制作，你会选择用什么博客程序源码？</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">原创模板</a></i><a href="/" title=""><img src="images/b01.jpg" alt=""></a></span>
+          <p class="blogtext">这些开源的博客程序源码，都是经过很多次版本测试的，都有固定的使用人群。我所知道的主流的博客程序有，Z-blog，Emlog，WordPress，Typecho等，免费的cms系统有，织梦cms（dedecms），phpcms，帝国cms（EmpireCMS）！... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">原创模板</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">宝宝个人博客模板-亲子博客模板-宝宝个人网站模板</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">最新模板</a></i><a href="/" title=""><img src="images/b02.jpg" alt=""></a></span>
+          <p class="blogtext">这是一个记录宝宝成长点滴的个人博客，用作于宝宝博客，亲子博客，都是适用的。颜色为蓝色调，头部有飘动的卡通云，采用css3动画效果，布局简单，代码精简，还有相册功能，发图片，视频，时间轴可记录重要时刻，也可记录宝宝的生长发育状况，也可以统计宝宝博客网站的所有文章... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">最新模板</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">如何快速建立自己的个人博客网站</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">快速建站</a></i><a href="/" title=""><img src="images/b03.jpg" alt=""></a></span>
+          <p class="blogtext">各大博客门户网站，相继关闭，做一个独立的个人博客网站，那是将来的趋势。越来越多的个人站长倾向于独立建站，有个属于自己的博客网站，那如何快速建立自己的个人博客网站呢，接下来，我就简单给大家介绍一下：以阿里云为例... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">快速建站</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">作为一个设计师,如果遭到质疑你是否能恪守自己的原则?</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">设计制作</a></i><a href="/" title=""><img src="images/b04.jpg" alt=""></a></span>
+          <p class="blogtext">就拿我自己来说吧，有时候会很矛盾，设计好的作品，不把它分享出来，会觉得待在自己电脑里面实在是没有意义。干脆就发布出去吧。我也害怕收到大家不好的评论，有些评论，可能说者无意，但是对于每一个用心的站长来说，都会受很深的影响，愤怒，恼羞。... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">设计制作</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+        <!--纯文字-->
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">别让这些闹心的套路，毁了你的网页设计!</a></h3>
+          <p class="blogtext">如图，要实现上图效果，我采用如下方法：1、首先在数据库模型，增加字段，分别是图片2，图片3。2、增加标签模板，用if，else if 来判断，输出。思路已打开，样式调用就可以多样化啦！... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">原创模板</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+        <!--单图-->
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">【个人博客网站制作】自己不会个人博客网站制作，你会选择用什么博客程序源码？</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">原创模板</a></i><a href="/" title=""><img src="images/b01.jpg" alt=""></a></span>
+          <p class="blogtext">这些开源的博客程序源码，都是经过很多次版本测试的，都有固定的使用人群。我所知道的主流的博客程序有，Z-blog，Emlog，WordPress，Typecho等，免费的cms系统有，织梦cms（dedecms），phpcms，帝国cms（EmpireCMS）！... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">原创模板</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">如何快速建立自己的个人博客网站</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">快速建站</a></i><a href="/" title=""><img src="images/b03.jpg" alt=""></a></span>
+          <p class="blogtext">各大博客门户网站，相继关闭，做一个独立的个人博客网站，那是将来的趋势。越来越多的个人站长倾向于独立建站，有个属于自己的博客网站，那如何快速建立自己的个人博客网站呢，接下来，我就简单给大家介绍一下：以阿里云为例... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">快速建站</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">【个人博客网站制作】自己不会个人博客网站制作，你会选择用什么博客程序源码？</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">原创模板</a></i><a href="/" title=""><img src="images/b05.jpg" alt=""></a></span>
+          <p class="blogtext">这些开源的博客程序源码，都是经过很多次版本测试的，都有固定的使用人群。我所知道的主流的博客程序有，Z-blog，Emlog，WordPress，Typecho等，免费的cms系统有，织梦cms（dedecms），phpcms，帝国cms（EmpireCMS）！... </p>
+          <p class="bloginfo"><i class="avatar"><img src="images/avatar.jpg"></i><span>杨青青</span><span>2018-10-28</span><span>【<a href="/">原创模板</a>】</span></p>
+          <a href="/" class="viewmore">阅读更多</a> </li>
+      </ul>
     </div>
-    <!-- End of Tags Cloud Widget -->
-
-
-</div>                </div>
-            </div>
-        </div>
+    <!--bloglist end--> 
+  </div>
+  <div class="rbox">
+    <div class="card">
+      <h2>我的名片</h2>
+      <p>网名：DanceSmile | 即步非烟</p>
+      <p>职业：Web前端设计师、网页设计</p>
+      <p>现居：四川省-成都市</p>
+      <p>Email：dancesmiling@qq.com</p>
+      <ul class="linkmore">
+        <li><a href="http://www.yangqq.com" target="_blank" class="iconfont icon-zhuye" title="网站地址"></a></li>
+        <li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=HHh9cn95b3F1cHVye1xtbTJ-c3E" target="_blank" class="iconfont icon-youxiang" title="我的邮箱"></a></li>
+        <li><a href="http://wpa.qq.com/msgrd?v=3&uin=476847113&site=qq&menu=yes" target="_blank" class="iconfont icon---" title="QQ联系我"></a></li>
+        <li id="weixin"><a href="#" target="_blank" class="iconfont icon-weixin" title="关注我的微信"></a><i><img src="images/wx.png"></i></li>
+      </ul>
     </div>
-    <!-- end of post with sidebar -->
-
-    
-    <!-- Newsletter -->
-    <section class="newsletter-cover">
-        <!-- Overlay -->
-        <div class="nl-bg-ol"></div>
-        <div class="container">
-            <div class="newsletter pt-80 pb-80">
-            <!-- Section title -->
-            <div class="section-title text-center">
-                <h2>Subscribe Our Newsletter</h2>
-            </div>
-            <!-- End of Section title -->
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <!-- Newsletter Form -->
-                        <form  action="subscribe/post?u=79f0b132ec25ee223bb41835f&amp;id=f4e0e93d1d" method="post" novalidate>
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Enter Your Email">
-                                <div class="input-group-append">
-                                    <button class="btn btn-default">Submit</button>
-                                </div>
-                            </div>
-                            <p class="checkbox-cover d-flex justify-content-center">
-                                <label> I've read and accept the <a href="#"> Privacy Policy </a>
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </p>
-                        </form>
-                        <!-- End of Newsletter Form -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Newsletter -->
-
-    <!-- Footer -->
-    <footer class="footer-container d-flex align-items-center">
-        <div class="container">
-            <div class="row align-items-center footer">
-                <div class="col-md-4 text-center text-md-left order-md-1 order-2">
-                    <div class="footer-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-google"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-center order-md-2 order-1">
-                    <a href="index.html"><img src="assets/images/logo.png" alt="" class="img-fluid"></a>
-                </div>
-                <div class="col-md-4 order-md-3 order-3">
-                    <div class="footer-cradit text-center text-md-right">
-                        <p>© 2019 <a href="http://www.17sucai.com">Themelooks.</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End of Footer -->
-
-    <!-- Back to Top Button -->
-    <div class="back-to-top d-flex align-items-center justify-content-center">
-        <span><i class="fa fa-long-arrow-up"></i></span>
+    <div class="whitebg notice">
+      <h2 class="htitle">网站公告</h2>
+      <ul>
+        <li><a href="/">十条设计原则教你学会如何设计网页布局!</a></li>
+        <li><a href="/">用js+css3来写一个手机栏目导航</a></li>
+        <li><a href="/">6条网页设计配色原则,让你秒变配色高手</a></li>
+        <li><a href="/">三步实现滚动条触动css动画效果</a></li>
+      </ul>
     </div>
-    <!-- End of Back to Top Button -->    
-
-    <!-- JS Files -->
-
-    <!-- ==== JQuery 1.12.1 js file ==== -->
-    <script src="assets/js/jquery-1.12.1.min.js"></script>
-
-    <!-- ==== Bootstrap js file ==== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-    <!-- ==== Owl Carousel ==== -->
-    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
-
-    <!-- ==== Magnific Popup ==== -->
-    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-     
-    <!-- ==== Script js file ==== -->
-    <script src="assets/js/scripts.js"></script>
-
-    <!-- ==== Custom js file ==== -->
-    <script src="assets/js/custom.js"></script>
-
+    <div class="whitebg paihang">
+      <h2 class="htitle">点击排行</h2>
+      <section class="topnews imgscale"><a href="/"><img src="images/h1.jpg"><span>6条网页设计配色原则,让你秒变配色高手</span></a></section>
+      <ul>
+        <li><i></i><a href="/">十条设计原则教你学会如何设计网页布局!</a></li>
+        <li><i></i><a href="/">用js+css3来写一个手机栏目导航</a></li>
+        <li><i></i><a href="/">6条网页设计配色原则,让你秒变配色高手</a></li>
+        <li><i></i><a href="/">三步实现滚动条触动css动画效果</a></li>
+        <li><i></i><a href="/">个人博客，属于我的小世界！</a></li>
+        <li><i></i><a href="/">安静地做一个爱设计的女子</a></li>
+        <li><i></i><a href="/">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a></li>
+        <li><i></i><a href="/">做个人博客如何用帝国cms美化留言增加头像选择</a></li>
+      </ul>
+    </div>
+    <div class="whitebg tuijian">
+      <h2 class="htitle">站长推荐</h2>
+      <section class="topnews imgscale"><a href="/"><img src="images/h2.jpg"><span>6条网页设计配色原则,让你秒变配色高手</span></a></section>
+      <ul>
+        <li><a href="/"><i><img src="images/text01.jpg"></i>
+          <p>十条设计原则教你学会如何设计网页布局!</p>
+          </a></li>
+        <li><a href="/"><i><img src="images/text02.jpg"></i>
+          <p>用js+css3来写一个手机栏目导航</p>
+          </a></li>
+        <li><a href="/"><i><img src="images/text03.jpg"></i>
+          <p>6条网页设计配色原则,让你秒变配色高手</p>
+          </a></li>
+        <li><a href="/"><i><img src="images/text04.jpg"></i>
+          <p>三步实现滚动条触动css动画效果</p>
+          </a></li>
+        <li><a href="/"><i><img src="images/text05.jpg"></i>
+          <p>个人博客，属于我的小世界！</p>
+          </a></li>
+        <li><a href="/"><i><img src="images/text06.jpg"></i>
+          <p>安静地做一个爱设计的女子</p>
+          </a></li>
+        <li><a href="/"><i><img src="images/text07.jpg"></i>
+          <p>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</p>
+          </a></li>
+      </ul>
+    </div>
+    <div class="ad whitebg imgscale">
+      <ul>
+        <a href="/"><img src="images/ad.jpg"></a>
+      </ul>
+    </div>
+    <div class="whitebg wenzi">
+      <h2 class="htitle">猜你喜欢</h2>
+      <ul>
+        <li><a href="/">十条设计原则教你学会如何设计网页布局!</a></li>
+        <li><a href="/">用js+css3来写一个手机栏目导航</a></li>
+        <li><a href="/">6条网页设计配色原则,让你秒变配色高手</a></li>
+        <li><a href="/">三步实现滚动条触动css动画效果</a></li>
+        <li><a href="/">个人博客，属于我的小世界！</a></li>
+        <li><a href="/">安静地做一个爱设计的女子</a></li>
+        <li><a href="/">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a></li>
+        <li><a href="/">做个人博客如何用帝国cms美化留言增加头像选择</a></li>
+      </ul>
+    </div>
+    <div class="ad whitebg imgscale">
+      <ul>
+        <a href="/"><img src="images/ad02.jpg"></a>
+      </ul>
+    </div>
+    <div class="whitebg tongji">
+      <h2 class="htitle">站点信息</h2>
+      <ul>
+        <li><b>建站时间</b>：2018-10-24</li>
+        <li><b>网站程序</b>：帝国CMS7.5</li>
+        <li><b>主题模板</b>：<a href="http://www.yangqq.com" target="_blank">《今夕何夕》</a></li>
+        <li><b>文章统计</b>：299条</li>
+        <li><b>文章评论</b>：490条</li>
+        <li><b>统计数据</b>：<a href="/">百度统计</a></li>
+        <li><b>微信公众号</b>：扫描二维码，关注我们</li>
+        <img src="images/wxgzh.jpg" class="tongji_gzh">
+      </ul>
+    </div>
+    <div class="links whitebg">
+      <h2 class="htitle"><span class="sqlink"><a href="/">申请链接</a></span>友情链接</h2>
+      <ul>
+        <li><a href="http://www.yangqq.com" target="_blank">杨青青个人博客</a></li>
+      </ul>
+    </div>
+  </div>
+</article>
+<footer>
+  <div class="box">
+    <div class="wxbox">
+      <ul>
+        <li><img src="images/wxgzh.jpg"><span>微信公众号</span></li>
+        <li><img src="images/wx.png"><span>我的微信</span></li>
+      </ul>
+    </div>
+    <div class="endnav">
+      <p><b>站点声明：</b></p>
+      <p>1、本站个人博客模板，均为杨青青本人设计，个人可以使用，但是未经许可不得用于任何商业目的。</p>
+      <p>2、所有文章未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任。举报邮箱：<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=HHh9cn95b3F1cHVye1xtbTJ-c3E" target="_blank">dacesmiling@qq.com</a></p>
+      <p>Copyright © <a href="http://www.yangqq.com" target="_blank">www.yangqq.com</a> All Rights Reserved. 备案号：<a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备11002373号-1</a></p>
+    </div>
+  </div>
+  <a href="#">
+  <div class="top"></div>
+  </a> </footer>
 </body>
 </html>
